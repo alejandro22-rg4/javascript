@@ -1,0 +1,8 @@
+LABORATORIO 2 - ARRAYS, BUCLES Y FUNCIONES EN JAVASCRIPT
+
+1. Extrae el ZIP.
+2. Abre index.html en Chrome, Firefox o Edge.
+3. Abre la consola (F12 > Consola).
+4. Elige un ejercicio, edita su archivo en ejercicios/ y recarga.
+5. Para el proyecto final selecciona 10_inventario.
+No se requiere Node.js, conexion a Internet ni paquetes externos.

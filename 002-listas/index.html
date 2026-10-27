@@ -1,0 +1,8 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Laboratorio JS 2</title><style>body{font-family:system-ui;max-width:760px;margin:45px auto;line-height:1.6;padding:0 20px}select,button{padding:10px;font-size:16px}code{background:#eee;padding:3px}</style></head><body><h1>Laboratorio 2 - Arrays, bucles y funciones</h1><p>Abre la consola del navegador con <strong>F12</strong> y selecciona un ejercicio. Cada seleccion recarga la pagina y ejecuta el archivo JS elegido.</p><label for="ej">Ejercicio:</label> <select id="ej"></select> <button onclick="location.reload()">Volver a ejecutar</button><p>Modifica el archivo correspondiente en <code>ejercicios/</code> y vuelve a ejecutar. Para abrirlo directamente, tambien puedes cambiar el parametro <code>?ej=01_arrays</code>.</p><script>
+const ejercicios = ["01_arrays", "02_modificar_arrays", "03_for_precios", "04_for_of", "05_while", "06_acumuladores", "07_funciones", "08_busqueda", "09_organizar", "10_inventario"];
+const selector=document.querySelector('#ej');
+for(const e of ejercicios){const o=document.createElement('option');o.value=e;o.textContent=e;selector.appendChild(o)}
+const params=new URLSearchParams(location.search);const seleccionado=ejercicios.includes(params.get('ej'))?params.get('ej'):ejercicios[0];selector.value=seleccionado;
+selector.addEventListener('change',()=>{location.search='?ej='+encodeURIComponent(selector.value)});
+const s=document.createElement('script');s.src='ejercicios/'+seleccionado+'.js';document.body.appendChild(s);
+</script></body></html>

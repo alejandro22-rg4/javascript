@@ -1,0 +1,9 @@
+LABORATORIO JAVASCRIPT 1 — PASANTES
+
+1. Abre index.html en Chrome, Edge o Firefox.
+2. Pulsa F12 y selecciona Consola.
+3. Edita index.html para cambiar src por el archivo del ejercicio que deseas ejecutar.
+4. Completa las tareas // TAREA de cada archivo JS con VS Code.
+5. Recarga el navegador (Ctrl+R) después de guardar.
+6. Los ejercicios 08 y 10 usan prompt(): deben ejecutarse en el navegador.
+7. No necesitas instalar Node.js, npm ni paquetes.
