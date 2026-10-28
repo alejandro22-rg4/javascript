@@ -1,0 +1,4 @@
+PAQUETE DE PASANTES
+Abre index.html en un navegador. Los ejercicios funcionan sin servidor ni conexión a Internet.
+Edita los archivos .js dentro de ejercicios/. Para ver errores usa F12 > Consola.
+No se utilizan datos reales ni sistemas de la empresa.
